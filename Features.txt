@@ -1,0 +1,59 @@
+Features:
+Support for many types of info:
+- Summary
+- Priority
+- Categories
+- Reminder (Sony Ericsson specific field. May work on phone with other brands, but no guarantee)
+- Due date
+- Note
+- Completed
+
+Synchronization & tasks exchange:
+- Possible to use phone brand synchronization software to synchronize the tasks with a computer
+- Send tasks as SMS
+  |- Possible to select phone number from the phone contact list
+  |- Keeps the last 15 selected numbers in memory
+- Send tasks via Bluetooth
+  |- Keeps the last 5 selected devices in memory
+- Category information is not transmitted (since it is not saved in the tasks database)
+
+Additional viewable info:
+- Last saved
+- Completion date
+
+Category support:
+- Support categories even if the phone does not support it natively
+- Support multiple categories
+- View only items from a specific category
+- View only uncategorised tasks
+- Create/rename/delete your own categories.
+- Tasks created from within a category are automatically added to that category.
+- Possible to add tasks to a category (not only the other way: adding categories to tasks)
+
+Sorting order:
+- Priority
+- Due date
+- Summary
+- Note
+
+Autorefresh (only available in Sony Ericsson phones with Sony Ericsson Java Platform 8.3 or later):
+- When getting a task via SMS or Bluetooth
+- When synchronizing with computer
+- When managing tasks using the native task manager
+
+Look and feel according to chosen phone theme.
+
+Localization
+- Reads phone language to determine which language to use.
+- Currently supports English and Swedish
+- Email me to get a language file to fill in if you want to add support for other languages.
+
+Other:
+- Separate screens for editing and viewing tasks.
+- Separate thread for loading and sorting the tasks to increase both startup time and responsiveness within the program.
+- Autochecks max length of summary and note.
+- Autochecks if due date only has date or date-time granularity.
+- Persists the result of all checks after starting the program for the first time.
+- Command to minimize
+- Short key to new task: Press 1, when viewing tasks.
+- Pressing 2-8 will select the specified task for viewing.

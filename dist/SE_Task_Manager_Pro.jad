@@ -1,0 +1,10 @@
+MIDlet-1: SE Task Manager Pro,/pictures/SETaskManagerPro24.png,jeremiaMorling.seTaskManagerPro.SETaskManagerPro
+MIDlet-Icon: /pictures/SETaskManagerPro24.png
+MIDlet-Jar-Size: 264912
+MIDlet-Jar-URL: SE_Task_Manager_Pro.jar
+MIDlet-Name: SE Task Manager Pro
+MIDlet-Permissions: javax.microedition.pim.ToDoList.read, javax.microedition.pim.ToDoList.write, javax.microedition.io.Connector.bluetooth.client, javax.microedition.io.Connector.obex.client, javax.microedition.pim.ContactList.read, javax.wireless.messaging.sms.send, javax.microedition.content.ContentHandler, javax.microedition.io.Connector.file.read, javax.microedition.io.Connector.file.write, javax.microedition.io.Connector.sms
+MIDlet-Vendor: Jeremia Mörling
+MIDlet-Version: 0.1
+MicroEdition-Configuration: CLDC-1.1
+MicroEdition-Profile: MIDP-2.1
